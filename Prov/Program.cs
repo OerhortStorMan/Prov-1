@@ -25,11 +25,13 @@ namespace Prov
                 b1.PrintInfo();
                 System.Console.WriteLine();
                 Thread.Sleep(1500);
+
                 Books b2 = new Books();
                 b2.Book();
                 b2.PrintInfo();
                 System.Console.WriteLine();
                 Thread.Sleep(1500);
+                
                 Books b3 = new Books();
                 b3.Book();
                 b3.PrintInfo();
